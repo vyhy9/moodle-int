@@ -9,7 +9,7 @@ export class AuthService {
     // Here you would typically find or create a user in your database
     const user = {
       id: profile.id,
-      email: profile.emails[0].value,
+      email: profile.emails.value,
       name: profile.displayName,
     };
 

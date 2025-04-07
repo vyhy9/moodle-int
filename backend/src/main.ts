@@ -14,7 +14,7 @@ async function bootstrap() {
   // Set global prefix
   app.setGlobalPrefix('api');
   
-  await app.listen(process.env.PORT || 5000);
+  await app.listen(process.env.PORT || 5001);
   console.log(`Application is running on: ${await app.getUrl()}`);
 }
 bootstrap(); 
